@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.main{
+    background-color: rgba(0, 0, 0, .1);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.login{
+    width: 400px;
+    min-width: 200px;
+    box-shadow: 1px 1px #ccc;
+    background-color: #fff;
+    margin: auto;
+    border-top: 1px solid rgb(25, 0, 255);
+}
+.login-header{
+    margin: 0 20px 20px 20px;
+    padding-top: 40px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.login-header__img{
+    width: 80px;
+}
+.login-header h4{
+    margin: 14px 0 14px 0;
+}
+.login-header h5{
+    margin: 15px 0 10px 0;
+    font-size: 14px;
+}
+.login-body{
+    margin: 0 20px;
+    
+}
+.login-body__input{
+    width: 88%;
+    padding: 10px 12px;
+    margin: 8px;
+    border: 1px solid #ccc;
+}
+.captcha{
+    margin: 0 8px;
+}
+.fogot-pass{
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 16px 0;
+    font-weight: 600;
+}
+.fogot-pass__text{
+    color: #0015ff;
+}
+.fogot-pass__link{
+    color: red;
+    text-decoration: none
+}
+.login-body__btn{
+    width: 100%;
+    height: 36px;
+    background-color: #4c8bf5;
+    border: none;
+    margin:0 0 40px 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+@media (max-width: 740px) {
+    .login{
+        margin: auto 20px;
+    }
+}
